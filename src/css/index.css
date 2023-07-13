@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+	margin: 5px;
+}
+
+input {
+	outline: none;
+	margin-right: 25px;
+}
+
+.positions__item {
+	list-style-type: none;
+	padding: 0;
+}
+
+button {
+	background: #ffcc33;
+	border: 2px solid #ffcc33;
+	font-size: 14px;
+}
+
+.general {
+	padding: 25px 0 0 50px;
+}
