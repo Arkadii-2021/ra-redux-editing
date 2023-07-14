@@ -16,10 +16,11 @@ export default function AddPosition() {
 			price: evt.target.elements.price.value
 			})
 		)};
+		
 		evt.target.elements.name.value = "";
 		evt.target.elements.price.value = "";
 	};
-	
+
 	return (
 		<form onSubmit={onSubmit}>
 			<input type="text" name="name" />

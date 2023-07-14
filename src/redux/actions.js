@@ -1,8 +1,8 @@
-export const EDIT_DATA = "EDIT_DATA" ;
-export const EDIT_MODE = "EDIT_MODE" ;
-export const SAVE_POSITION = "SAVE_POSITION" ;
-export const EDIT_POSITION = "EDIT_POSITION" ;
-export const REMOVE_POSITION = "REMOVE_POSITION" ;
+export const EDIT_DATA = "EDIT_DATA";
+export const EDIT_MODE = "EDIT_MODE";
+export const SAVE_POSITION = "SAVE_POSITION";
+export const EDIT_POSITION = "EDIT_POSITION";
+export const REMOVE_POSITION = "REMOVE_POSITION";
 
 
 export const editData = (obj) => {

@@ -11,7 +11,7 @@ export default function EditPosition() {
 		name: editItem.name,
 		price: editItem.price
 	});
-	
+
 	const save = (evt) => {
 		evt.preventDefault();
 	
@@ -20,7 +20,9 @@ export default function EditPosition() {
 			name: evt.target.elements.name.value,
 			price: evt.target.elements.price.value
 		}));
+
 		dispatch(editMode(false));
+
 	};
 
 	const cancel = () => {
@@ -29,7 +31,6 @@ export default function EditPosition() {
 
 	const onChange = (evt) => {
 		const name = evt.target.name;
-		
 		setState(prevState => ({...prevState, [name]: evt.target.value}));
 	};
 

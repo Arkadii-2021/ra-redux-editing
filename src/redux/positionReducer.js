@@ -1,8 +1,8 @@
-import { SAVE_POSITION } from "./actions";
+import { EDIT_DATA } from "./actions";
 
 export const positionReducer = (state=null, action) => {
 	switch (action.type) {
-		case SAVE_POSITION:
+		case EDIT_DATA:
 			return action.payload
 		
 		default:
